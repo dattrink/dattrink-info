@@ -45,7 +45,7 @@ projects:
 
 - name: Hệ thống cấp giấy đi đường
   logo: /images/sections/projects/toha.png
-  role: Owner
+  role: Developer
   timeline: "08/2021 - 09/2021"
   url: https://thoxuan.thanhhoa.gov.vn/web/trang-chu/tin-tuc-su-kien/phong-chong-dich-covid-19/ung-dung-cap-giay-di-duong-truc-tuyen.html
   summary: Hệ thống cấp, phát giấy đi đường và mã QR cá nhân, hỗ trợ cán bộ tại chốt kiểm dịch sử dụng các thiết bị quét mã QR như điện thoại thông minh có kết nối mạng, dùng các hệ thống quét mã QR như PC-COVID, zalo, camera điện thoại thông minh hỗ trợ quét mã QR.
