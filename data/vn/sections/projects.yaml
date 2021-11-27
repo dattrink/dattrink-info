@@ -1,0 +1,67 @@
+# section information
+section:
+  name: Các dự án
+  id: projects
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: GOV
+  filter: "gov"
+- name: Hobby
+  filter: "hobby"
+
+# your projects
+projects:
+- name: ISOO
+  logo: /images/sections/projects/iso.png
+  role: Developer & Project Manager
+  timeline: "11/2017 - Present"
+  #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Hệ thống quản lý chất lượng theo tiêu chuẩn TCVN 9001:2015 áp dụng cho các đơn vị hành chính, Đã triển khai các tỉnh/ thành [Long An](http://la34.com.vn/tin-tuc/thoi-su-long-an/ho-tro-ung-dung-phan-mem-iso-dien-tu-tai-can-duoc/), [Cà Mau](https://www.baocamau.com.vn/chinh-tri-xa-hoi/iso-dien-tu-tung-buoc-hien-dai-hoa-nen-hanh-chinh-57833.html), [Trà Vinh](https://cdvctravinh.org.vn/index.php/tin-tuc/tin-tuc-hoat-dong-cdvc-tinh-va-cdcs/1790-tra-vinh-trien-khai-iso-dien-tu-tai-cac-co-quan-hanh-chinh), [Đắk Nông](http://iso.daknong.gov.vn/trang-chu), [Quảng Bình](https://sct.quangbinh.gov.vn/3cms/trien-khai-ap-dung-he-thong-iso-dien-tu-9001-2015.htm), Gia Lai, Sóc Trăng.
+  tags: ["gov", "java", "liferay"]
+
+- name: eOffice
+  logo: /images/sections/projects/eoffice.png
+  role: Developer
+  timeline: "01/2021 - Present"
+  summary: Phần mềm chuyển đổi số quản lý văn bản điều hành, lịch công tác, phân công - giao việc trên nền web và [ứng dụng di động](https://play.google.com/store/apps/details?id=com.vpdt).
+  tags: ["gov", "java", "liferay", "javascript", "react-native"]
+
+- name: Quản lý điểm sinh viên
+  logo: /images/sections/projects/cea.png
+  role: Owner
+  timeline: "09/2021 - 11/2021"
+  url: http://qlsv.beeintech.com/
+  summary: Phần mềm quản lý điểm, hỗ trợ sinh viên tra cứu, in bảng điểm. Đã triển khai [Trường Cao Đẳng Cơ Điện Và Nông Nghiệp Nam Bộ](http://cea.edu.vn/)
+  tags: ["freelancer", "php", "laravel", "vuejs"]
+
+- name: Hệ thống cấp giấy đi đường
+  logo: /images/sections/projects/toha.png
+  role: Owner
+  timeline: "08/2021 - 09/2021"
+  url: https://thoxuan.thanhhoa.gov.vn/web/trang-chu/tin-tuc-su-kien/phong-chong-dich-covid-19/ung-dung-cap-giay-di-duong-truc-tuyen.html
+  summary: Hệ thống cấp, phát giấy đi đường và mã QR cá nhân, hỗ trợ cán bộ tại chốt kiểm dịch sử dụng các thiết bị quét mã QR như điện thoại thông minh có kết nối mạng, dùng các hệ thống quét mã QR như PC-COVID, zalo, camera điện thoại thông minh hỗ trợ quét mã QR.
+  tags: ["gov", "java", "liferay"]
+
+- name: utruyen
+  logo: /images/sections/projects/utruyen.png
+  role: Owner
+  timeline: "03/2020 - 09/2020"
+  url: http://utruyen.beeintech.com/
+  summary: Website đọc truyện tranh trực tuyến Nhật Bản, được phát triển dựa trên mục đích học tập và sở thích cá nhân :))
+  tags: ["hobby", "php", "laravel"]
+
+- name: DCMS
+  role: Owner
+  timeline: "05/2019 - 03/2020"
+  url: http://dcms.beeintech.com/
+  summary: Dự án quản trị nội dung, được phát triển dựa trên mục đích học tập.
+  tags: ["hobby", "php", "laravel"]

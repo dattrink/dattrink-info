@@ -1,0 +1,16 @@
+# some information about you
+name: "Trinh Tan Dat"
+nickname: "Dat"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Xin chào, tôi là"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "ttdat.email@gmail.com"
+  phone: "+840779884693"
+
+# some summary about what you do
+summary:
+  - Tôi là Web Developer
+  - Tôi thích Laravel
+  - Tôi đang làm việc với các dự án Java và Laravel
+  - Tôi cũng làm việc với ReactJs

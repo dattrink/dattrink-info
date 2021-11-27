@@ -1,0 +1,23 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Java
+  logo: "/images/sections/skills/java.png"
+  summary: "Làm việc với các công nghệ như Java, Liferay Portal, PostgreSQL, Hibernate"
+
+- name: PHP
+  logo: "/images/sections/skills/php.png"
+  summary: "Tôi sử dụng PHP, Laravel cho các side project và các dự án mang tính sở thích cá nhân"
+
+- name: GIT
+  summary: "Có kinh nghiệm làm việc với Github và Gitlab."

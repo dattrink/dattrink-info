@@ -1,0 +1,53 @@
+# section information
+section:
+  name: Giới thiệu
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Web Developer
+# your company information
+company:
+  name: Can Tho University Software Center (CUSC).
+  url: "http://www.cuscsoft.com/"
+
+# your resume. this file path should be relative to you "static" directory
+#resume: "files/resume.pdf"
+
+# a summary about you
+# summary: 'I am a passionate software engineer with x years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/) using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc.'
+summary: 'Tôi có 3 năm kinh nghiệm phát triển Web với Liferay, Java, JSF, Postgresql tại CUSC. Ngoài công việc chính, tôi còn thực hiện một số dự án cá nhân với Laravel, PHP. Hiện tại tôi đang có hứng thú với các Framework JavaScript, Mobile và tiếng Nhật.'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Github
+  icon: "fab fa-github"
+  url: "https://github.com/dattrink"
+
+- name: Facebook
+  icon: "fab fa-facebook"
+  url: "https://www.facebook.com/name.ttdat/"
+
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+softSkills:
+- name: Java
+  percentage: 90
+  color: pink
+- name: JavaScript
+  percentage: 70
+  color: blue
+- name: PHP
+  percentage: 80
+  color: orange
+- name: PostgreSQL
+  percentage: 85
+  color: sky
+- name: MySQL
+  percentage: 85
+  color: yellow
